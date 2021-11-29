@@ -21,4 +21,4 @@ file uploads.
 
 &copy; copyrights 2021. All rights reserved.
 
-Licensed under [MIT LICENSE](https://github.com/ASHIK11ab/swito/blob/main/LICENSE)
+Licensed under [MIT LICENSE](https://github.com/ASHIK11ab/swito-api/blob/main/LICENSE)
