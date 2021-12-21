@@ -57,8 +57,10 @@ jobs:
         env:
           HEROKU_APP_NAME: ${{ secrets.HEROKU_APP_NAME }}
 
+      # Keep our changes. Fixes merge conflict issue in 
+      # after commiting downloaded config file.
       - name: Pull from Heroku
-        run: git pull heroku main --allow-unrelated-histories
+        run: git pull heroku main --allow-unrelated-histories -X ours
 
       - name: Push to Heroku
         run: git push heroku main
